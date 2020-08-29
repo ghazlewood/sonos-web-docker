@@ -4,7 +4,7 @@ MAINTAINER	Clemens Putschli <clemens@putschli.de>
 # create app dir
 WORKDIR /usr/sonos-web
 
-RUN apt-get install nano
+RUN apk add --no-cache nano
 RUN npm install -g sonos-web-cli
 RUN sonos-web install
 RUN sonos-web update
