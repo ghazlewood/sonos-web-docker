@@ -1,5 +1,5 @@
-FROM node:8-alpine
-MAINTAINER	Clemens Putschli <clemens@putschli.de>
+FROM node:current-alpine
+MAINTAINER	George Hazlewood <george@hazlewood.co.uk>
 
 # create app dir
 WORKDIR /usr/sonos-web
